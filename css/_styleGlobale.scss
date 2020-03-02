@@ -1,0 +1,79 @@
+/* Golobal style */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    
+
+}
+
+a {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+/* -----------variables--------------  */
+
+
+$backColor:#000;
+$mainColor:#ffbd39;
+$sparColor:#82c91e;
+$secondColor:#1a1a1a;
+$thirdColor:rgba(255,255,255,.5);
+$border : 2px solid #ffbd39;
+$animate : all .6s;
+$fontSize : 16px;
+
+
+
+.owl-dots,
+.owl-nav {
+    display: none;
+    
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: #fff;
+    border: $border;
+    transition: $animate;
+    &:hover {
+        background-color: $mainColor;
+        font-weight: bold;
+    }
+}
+
+.head1 {
+    font-size: $fontSize * 7;
+    color: rgba(255,255,255,.1);
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.head2 {
+    position: absolute;
+    top: 0px;
+    left: 38%;
+    text-transform: uppercase;
+    font-size: $fontSize*3;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+
+
